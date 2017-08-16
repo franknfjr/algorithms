@@ -20,6 +20,18 @@ O `Selection Sort`, ou a ordenação por seleção, é um algoritmo de ordenaç�
 `Insertion Sort`, ou ordenação por inserção, é o algoritmo de ordenação que, dado uma estrutura (array, lista) constrói uma matriz final com um elemento de cada vez, uma inserção por vez. Assim como algoritmos de ordenação quadrática, é bastante eficiente para problemas com pequenas entradas, sendo o mais eficiente entre os algoritmos desta ordem de classificação.
 
 ![InsertionSort](https://github.com/franknfjr/algorithms/blob/master/InsertioSort.PNG)
+## Comparação
+
+A matricula a ser observada é a `2015000280`, de cara percebe-se que já esta praticamente ordenada. Por ser um numero `n` de elementos igual a 5, as análises são positivas para todos os algoritmos testados, porém no quesito tempo iterações o `BubbleSort` e `BubbleSorte2` obtiveram o máximo de iterações possível, entretanto no segundo laço já estavam ordenado, e o `BubbleSort1` obteve um resultado de ordenação muito bom  em relação ao `SelectionSort` onde esse é um dos mais velozes na ordenação de vetores de tamanhos pequenos, só que precisou fazer até a última varrida pra ter certeza, e por fim o `InsertionSort` é o método a ser utilizado quando o arquivo está "quase" ordenado. É um bom método quando se desejar adicionar poucos elementos em um arquivo já ordenado, pois seu custo é linear.
+
+Colocação | Algoritmo
+--------- | ------
+1  | InsertionSort
+2  | BubbleSort1
+3  | SelectionSort
+4  | BubbleSort2
+5  | BubbleSort
+
 ## Referência
 
 BubbleSort: 
